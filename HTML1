@@ -1,0 +1,42 @@
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Testimonials</a>
+  <a href="#">Blog</a>
+  <a href="#">Contact</a>
+</nav>
+{
+  box-sizing: border-box;
+  text-decoration: none;
+}nav {
+  background-color: #fff;
+  padding: 0 20px;
+  border-radius: 40px;
+  box-shadow: 0 10px 40px rgba(159, 162, 177, .8);
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+  position: relative;
+}.nav-item {
+  color: #83818c;
+  font-family: arial, sans-serif;
+  padding: 20px;
+  margin: 0 6px;
+  position: relative;
+}
+<nav>
+  <a href="#" class="nav-item is-active">Home</a>
+  <a href="#" class="nav-item">About</a>
+  <a href="#" class="nav-item">Testimonials</a>
+  <a href="#" class="nav-item">Blog</a>
+  <a href="#" class="nav-item">Contact</a>
+  <span class="nav-indicator"></span>
+</nav>
+<nav>
+  <a href="#" class="nav-item is-active" data-active-color="orange" data-target="Home">Home</a>
+  <a href="#" class="nav-item" data-active-color="green" data-target="About">About</a>
+  <a href="#" class="nav-item" data-active-color="blue" data-target="Testimonials">Testimonials</a>
+  <a href="#" class="nav-item" data-active-color="red" data-target="Blog">Blog</a>
+  <a href="#" class="nav-item" data-active-color="rebeccapurple" data-target="Contact">Contact</a>
+  <span class="nav-indicator"></span>
+</nav>
